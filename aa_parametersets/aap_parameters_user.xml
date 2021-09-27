@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap xmlns:xi="http://www.w3.org/2001/XInclude">
+   <xi:include href="/Volumes/ImranT7/Project/automaticanalysis/aa_parametersets/aap_parameters_defaults.xml" parse="xml"/>
+   <local>
+       <directory_conventions>
+          <rawdatadir ui='dir'>/Volumes/ImranT7/Project/aa_demo</rawdatadir>
+          <freesurferdir desc='Path to freesurfer' ui='dir'>/Applications/freesurfer/7.2.0</freesurferdir>
+          <freesurfershell desc='Shell used to run FreeSurfer' ui='text'>bash</freesurfershell>
+          <freesurfersetup desc='Path to FreeSurfer setup script, executing before any FreeSurfer command' ui='text'></freesurfersetup>
+          <freesurferenvironment desc='Path to FreeSurfer environmental setup script, executing before any FreeSurfer command' ui='text'>/Applications/freesurfer/7.2.0/FreeSurferEnv.sh;</freesurferenvironment>
+          <fsldir desc='Path to fsl' ui='dir'>/usr/local/fsl</fsldir>
+            <fslsetup desc='Path to fsl setup script, executing before any fsl command' ui='text'></fslsetup>
+            <fslshell desc='Shell used to run FSL' ui='text'>bash</fslshell>
+            <fsloutputtype desc='Output type used by FSL' ui='text'>NIFTI</fsloutputtype>
+        </directory_conventions>
+      <acq_details>
+         <root desc="Root on local machine for processed data" ui="dir">/Volumes/ImranT7/Project/automaticanalysis/aa_parametersets</root>
+      </acq_details>
+   </local>
+</aap>

@@ -12,6 +12,7 @@
             
             <inputstreams>
                 <stream>structural</stream>
+                <stream isessential="0">t2</stream>
             </inputstreams>
             
             <outputstreams>
